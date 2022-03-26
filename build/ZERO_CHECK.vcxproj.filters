@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\pcx\STM32CubeIDE\workspace_1.9.0\STM32RC522_DAT\build\CMakeFiles\f3208c317f953ec3411d91c1727bdb76\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6312CE9E-BD79-3D43-99C1-631EBC868280}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
