@@ -15,7 +15,9 @@
             ],
             "windowsSdkVersion": "10.0.22000.0",
             "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.31.31103/bin/Hostx64/x64/cl.exe",
-            "intelliSenseMode": "windows-msvc-x64"
+            "intelliSenseMode": "msvc-x64",
+            "cppStandard": "c++11",
+            "cStandard": "gnu11"
         }
     ],
     "version": 4
