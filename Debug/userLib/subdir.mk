@@ -5,13 +5,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../userLib/MFRC522.c 
+../userLib/MFRC522.c \
+../userLib/i2c-lcd.c 
 
 OBJS += \
-./userLib/MFRC522.o 
+./userLib/MFRC522.o \
+./userLib/i2c-lcd.o 
 
 C_DEPS += \
-./userLib/MFRC522.d 
+./userLib/MFRC522.d \
+./userLib/i2c-lcd.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -21,7 +24,7 @@ userLib/%.o userLib/%.su: ../userLib/%.c userLib/subdir.mk
 clean: clean-userLib
 
 clean-userLib:
-	-$(RM) ./userLib/MFRC522.d ./userLib/MFRC522.o ./userLib/MFRC522.su
+	-$(RM) ./userLib/MFRC522.d ./userLib/MFRC522.o ./userLib/MFRC522.su ./userLib/i2c-lcd.d ./userLib/i2c-lcd.o ./userLib/i2c-lcd.su
 
 .PHONY: clean-userLib
 

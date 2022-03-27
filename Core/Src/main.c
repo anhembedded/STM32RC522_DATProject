@@ -135,6 +135,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+ 
+    /* USER CODE BEGIN 3 */
     for (int i = 0; i < 16; i++)
     {
       cardstr[i] = 0;
@@ -279,7 +281,6 @@ int main(void)
       HAL_Delay(1);
       MFRC522_Halt();
 
-
       HAL_Delay(delay_val);
       delay_val = 1000;
       sprintf(str1, "                ");
@@ -296,9 +297,7 @@ int main(void)
       sprintf(str3, "                ");
 
       sprintf(str4, "                ");
-
     }
-    /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }
